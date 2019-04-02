@@ -3,6 +3,7 @@ require 'spec_helper'
 describe 'School' do
   before :each do
     @school = School.new("Test School")
+    puts "reset school", @school.roster.length
   end
 
   describe "::new" do
